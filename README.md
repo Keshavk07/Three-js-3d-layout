@@ -1,12 +1,29 @@
-# React + Vite
+# 🌲 3D Interactive Forest Scene in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a 3D interactive nature scene built using **React**, **@react-three/fiber**, and **Three.js**. It features animated trees, blooming flowers, floating clouds, realistic mountains, and a user-controllable butterfly that moves through the environment.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏔️ Procedural 3-layer mountains with a snowy peak
+- 🌳 Animated tree with textured trunk, layered leaves, and subtle branch motion
+- 🌼 Flowers that bloom and fade with time
+- ☁️ Clouds that float and drop raindrops from a fixed height
+- 🦋 A butterfly that you can move using your keyboard
+- 🎮 Keyboard Controls:
+  - `Arrow Up / Down / Left / Right`: Move butterfly along X and Y axes
+  - `W` / `S`: Move butterfly forward and backward (Z-axis)
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **@react-three/fiber** – React renderer for Three.js
+- **@react-three/drei** – Useful helpers like `OrbitControls`
+- **Three.js** – 3D rendering library
+- **JavaScript** (ES6+)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Keshavk07/Three-js-3d-layout.git
+   npm run dev
